@@ -1,4 +1,5 @@
 import GeneralInfo from "./components/GeneralInfo"
+import Education from "./components/Education"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <h1>CV Application</h1>
       <GeneralInfo />
+      <Education />
     </div>
   )
 }
