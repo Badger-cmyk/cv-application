@@ -1,16 +1,27 @@
-# React + Vite
+# **CV Application**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Description**
 
-Currently, two official plugins are available:
+A small application where users can input their information and generate a CV/résumé
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
+[Here](https://cv-application-nine-lime.vercel.app/)
 
-## Expanding the ESLint configuration
+## Built With
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+- How to set up a React project using Vite
+- How to build reusable UI components in React
+-  How to use React's useState hook to manage component state
+- How to create controlled form inputs using value and onChange
+- How to use conditional rendering to switch between editing and viewing modes
+- How to use JSX to describe user interface elements
+- How to organize a React project into separate components and files
