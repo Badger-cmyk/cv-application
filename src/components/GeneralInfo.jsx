@@ -25,13 +25,15 @@ function GeneralInfo(){
             event.preventDefault()
             setIsEditing(false)
         }}>
+            <h2>Personal Information</h2>
+
             <label htmlFor="name">Full Name:</label>
-            <input type="text" name="name" id="name" required
+            <input type="text" name="name" id="name" required placeholder="First and last name"
             value={name}
             onChange={(event) => setName(event.target.value)}/>
 
             <label htmlFor="email">Email:</label>
-            <input type="email" name="email" id="email" required
+            <input type="email" name="email" id="email" required placeholder="example@domain.com"
             value={email}
             onChange={(event) => setEmail(event.target.value)}/>
 
