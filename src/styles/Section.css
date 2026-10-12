@@ -1,0 +1,27 @@
+.cv-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 480px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cv-section h2 {
+  margin-top: 0;
+}
+
+.cv-section input,
+.cv-section textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cv-section button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

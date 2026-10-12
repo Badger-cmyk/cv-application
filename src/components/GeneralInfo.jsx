@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "../styles/Section.css"
 
 function GeneralInfo(){
     const [name, setName] = useState("")
@@ -9,8 +10,8 @@ function GeneralInfo(){
 
     if(!isEditing){
         return (
-            <section>
-                <h2>General Information</h2>
+            <section className="cv-section">
+                <h2>Personal Information</h2>
                 <p>Name: {name}</p>
                 <p>Email: {email}</p>
                 <p>Phone Number: {phone}</p>
@@ -24,7 +25,10 @@ function GeneralInfo(){
         <form onSubmit={(event) => {
             event.preventDefault()
             setIsEditing(false)
-        }}>
+        }}
+            className="cv-section"
+        >
+
             <h2>Personal Information</h2>
 
             <label htmlFor="name">Full Name:</label>
@@ -38,7 +42,7 @@ function GeneralInfo(){
             onChange={(event) => setEmail(event.target.value)}/>
 
             <label htmlFor="phone">Phone Number:</label>
-            <input type="tel" name="phone" id="phone" required
+            <input type="tel" name="phone" id="phone" required placeholder="e.g. 024 123 4567"
             value={phone}
             onChange={(event) => setPhone(event.target.value)}/>
 

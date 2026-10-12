@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/Section.css"
 
 function Experience(){
     const [isEditing, setIsEditing] = useState(true)
@@ -10,7 +11,7 @@ function Experience(){
 
     if(!isEditing) {
         return(
-            <section>
+            <section className="cv-section">
                 <h2>Practical Experience</h2>
                 <p>Company: {info.company}</p>
                 <p>Position: {info.position}</p>
@@ -27,7 +28,10 @@ function Experience(){
         <form onSubmit={(event) => {
             event.preventDefault()
             setIsEditing(false)
-        }}>
+        }}
+            className="cv-section"
+        >
+
             <h2>Practical Experience</h2>
 
             <label htmlFor="company">Company Name: </label>
