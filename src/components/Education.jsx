@@ -28,12 +28,12 @@ function Education() {
             <h2>Educational Experience</h2>
 
             <label htmlFor="school">School:</label>
-            <input type="text" name="school" id="school" required 
+            <input type="text" name="school" id="school" required  placeholder="Enter school/university"
             value={school}
             onChange={(event) => setSchool(event.target.value)}/>
 
             <label htmlFor="study">Title of study:</label>
-            <input type="text" name="study" id="study" required 
+            <input type="text" name="study" id="study" required placeholder="Enter degree/field of study"
             value={study}
             onChange={(event) => setStudy(event.target.value)}/>
 
